@@ -34,46 +34,46 @@
 // 2. Crie um sistema de pets onde tenha um dono de pet com um nome e um número de contato,
 //e tenha uma lista de pets com os parâmetros, nome, raça e idade;
 
-
-fun main(args: Array<String>){
-    Pets()
-}
-
-fun Pets(){
-    var listaDono = mutableListOf<Dono>()
-    var popo = Dono("Popo")
-    listaDono.add(popo)
-
-    for ( dono in listaDono){
-        println("nome: ${dono.nome}")
-    }
-}
-
-
-class Dono {
-    var nome: String
-    var telefone: Int
-    var pets: MutableList<Pet>
-
-    constructor(nome: String, telefone: Int, pets: MutableList<Pet>){
-            this.nome = nome
-            this.telefone = telefone
-            this.pets = pets
-    }
-
-}
-
-class Pet {
-    var nome: String
-    var raca: String
-    var idade: Int
-
-    constructor(nome: String, raca: String, idade: Int){
-        this.nome = nome
-        this.raca = raca
-        this.idade = idade
-    }
-}
+//
+//fun main(args: Array<String>){
+//    Pets()
+//}
+//
+//fun Pets(){
+//    var listaDono = mutableListOf<Dono>()
+//    var popo = Dono("Popo")
+//    listaDono.add(popo)
+//
+//    for ( dono in listaDono){
+//        println("nome: ${dono.nome}")
+//    }
+//}
+//
+//
+//class Dono {
+//    var nome: String
+//    var telefone: Int
+//    var pets: MutableList<Pet>
+//
+//    constructor(nome: String, telefone: Int, pets: MutableList<Pet>){
+//            this.nome = nome
+//            this.telefone = telefone
+//            this.pets = pets
+//    }
+//
+//}
+//
+//class Pet {
+//    var nome: String
+//    var raca: String
+//    var idade: Int
+//
+//    constructor(nome: String, raca: String, idade: Int){
+//        this.nome = nome
+//        this.raca = raca
+//        this.idade = idade
+//    }
+//}
 
 
 //-----------------------------------------------------------------------------------------------------------
@@ -125,13 +125,13 @@ class Pet {
 //Nesse sistema podemos adicionar uma nova atividade e podemos alterar uma atividade para completa ou incompleta
 
 
-class tarefasDiarias{
-    var atividade: String
-    var nome: String
-
-    constructor( atividade: String, nome: String){
-        this.atividade = atividade
-        this.nome = nome
-
-    }
-}
+//class tarefasDiarias{
+//    var atividade: String
+//    var nome: String
+//
+//    constructor( atividade: String, nome: String){
+//        this.atividade = atividade
+//        this.nome = nome
+//
+//    }
+//}
