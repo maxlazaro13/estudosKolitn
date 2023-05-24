@@ -6,7 +6,6 @@ fun main( args : Array<String>){
 //    exercicio2()
 }
 
-
 fun exercicio1(){
     println("roda exercicio 1")
 }
